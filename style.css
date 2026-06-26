@@ -458,10 +458,15 @@ section { padding: 6rem 2rem; position: relative; }
 .timeline-item:last-child { margin-bottom: 0; }
 
 .timeline-dot {
-  position: absolute; left: -2.55rem; top: .35rem;
-  width: 12px; height: 12px;
-  background: var(--accent); border-radius: 50%;
+  position: absolute;
+  left: -2rem;
+  top: .3rem;
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(59,130,246,.2);
+  transform: translateX(-5px);
   transition: box-shadow .3s;
 }
 .timeline-item:hover .timeline-dot {
